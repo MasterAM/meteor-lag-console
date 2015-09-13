@@ -1,0 +1,50 @@
+/*create round icons behind <i> elements*/
+#Constellation .method-lag-item .small-icon {
+    position: relative;
+    cursor: hand;
+    width: 1.0em;
+    margin: 0 1px;
+}
+
+#Constellation .method-lag-item .small-icon:after {
+    width: 0;
+    height: 0;
+    border: 0.5em solid;
+    border-radius: 0.5em;
+    content: "";
+    position: absolute;
+    left: -0.2em;
+    top: 0.1em;
+    z-index: -1;
+}
+
+#Constellation .method-lag-item .delay-icon:after {
+    border-color: #aa3333;
+}
+
+#Constellation .method-lag-item .excluded-icon:after {
+    border-color: #33aa33;
+}
+
+#Constellation .method-lag-item .enabled {
+    font-weight: bolder;
+}
+
+#Constellation .method-lag-item .disabled:after {
+    opacity: 0.4;
+}
+
+#Constellation .method-lag-item input[name=delay] {
+    flex: 1;
+    color: #333333;
+    max-width: 6em;
+}
+
+#Constellation .method-lag-item button {
+    margin: 0 2px;
+}
+
+#Constellation .method-lag-item {
+    display: flex;
+    align-items: center;
+}

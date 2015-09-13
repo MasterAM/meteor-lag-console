@@ -1,0 +1,9 @@
+<template name="ConstellationLagContent">
+    {{#if showSettings}}
+        {{> ConstellationLagConfig}}
+    {{else}}
+        {{#each methodNames}}
+            {{> ConstellationLagContentMethods .}}
+        {{/each}}
+    {{/if}}
+</template>

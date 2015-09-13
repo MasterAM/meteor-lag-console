@@ -1,0 +1,20 @@
+<template name="ConstellationLagContentMethods">
+    {{#with details}}
+        <div class="method-lag-item item">
+            {{#with delayData}}
+                <i data-action="toggle-delayed" class="small-icon delay-icon {{className}}" title="{{title}}">d</i>
+            {{/with}}
+            {{#with excludeData}}
+                <i data-action="toggle-excluded" class="small-icon excluded-icon {{className}}" title="{{title}}">e</i>
+            {{/with}}
+            {{#if isEditing}}
+                <input name="delay" type="number" placeholder="delay[ms]" />
+                <button data-action="set-delay" title="save edits">set</button>
+                <button data-action="clear-delay" title="clear an existing custom delay">clr</button>
+                <button data-action="cancel-delay" title="cancel the edit operation">cancel</button>
+            {{else}}
+                <span class="name">{{name}}</span>
+            {{/if}}
+        </div>
+    {{/with}}
+</template>

@@ -1,0 +1,8 @@
+#Constellation span.alon-lag-console-delay {
+    float: right;
+    display: none;
+}
+
+#Constellation.Constellation_expand span.alon-lag-console-delay{
+    display: inline-block;
+}

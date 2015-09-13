@@ -1,0 +1,11 @@
+<template name="ConstellationLagMenu">
+    <div class="alon-lag-console-menu">
+        {{#each toggleOptions}}
+            {{> ConstellationLagToggleOption}}
+        {{/each}}
+        <div class="spacer"></div>
+        <div class="settings">
+            <button data-action="toggle-settings" class="{{settingsClass}}" title="Toggle settings view">Settings</button>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,27 @@
+#Constellation .alon-lag-console-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#Constellation .alon-lag-console-menu > div {
+    display: flex;
+    align-items: center;
+}
+
+#Constellation .alon-lag-console-menu > div.item {
+    border-right: 1px solid rgba(0,0,0,0.2);
+    padding: 0 5px;
+}
+
+#Constellation .alon-lag-console-menu > div.spacer {
+    flex: 1;
+}
+
+#Constellation .alon-lag-console-menu button {
+    color: #333;
+}
+
+#Constellation .alon-lag-console-menu button[data-action=toggle-settings].active {
+    border-style: inset;
+}
