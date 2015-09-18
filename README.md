@@ -23,7 +23,7 @@ This package is intended to provide a cleaner alternative to those dirty fixes.
 
 The package adds delay to methods on the server only. Different delays can be configured for specific methods and the default delay can also be set (it is 2000ms by default).
 
-##configuration
+## Configuration
 You may configure `alon:lag-methods` to your liking.
 
 All of the config options (and other useful info) are specified in the [README file](https://github.com/MasterAM/meteor-lag-methods/blob/master/README.md).
