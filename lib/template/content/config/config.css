@@ -2,3 +2,11 @@
 #Constellation .alon-lag-console-config .item button {
     color: #333;
 }
+
+#Constellation .alon-lag-console-config input[type=number] {
+  max-width: 120px;	
+}
+
+#Constellation .alon-lag-console-config .item {
+  margin-top: 3px;	
+}

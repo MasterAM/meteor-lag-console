@@ -1,6 +1,5 @@
 <template name="ConstellationLagToggleOption">
-    <div class="item">
-        <input type="checkbox" data-action="toggle-config" data-option="{{name}}" title="{{title}}" {{isActive}}  />
-        <span>{{label}}</span>
+    <div class="alon-lag-methods-config item">
+        <input id="constellation-lag-toggle-{{label}}" type="checkbox" data-action="toggle-config" data-option="{{name}}" title="{{title}}" {{isActive}}  /><label for="constellation-lag-toggle-{{label}}">{{label}}</label>
     </div>
 </template>

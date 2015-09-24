@@ -1,0 +1,15 @@
+#Constellation .alon-lag-methods-config {
+	margin: 0;
+	padding: 0;
+	line-height: 16px;
+}
+
+#Constellation .alon-lag-methods-config input, #Constellation .alon-lag-methods-config label {
+    vertical-align: top;
+}
+
+#Constellation .alon-lag-methods-config label {
+  margin: 0 0 0 8px;
+  padding: 0;
+  line-height: 16px;
+}

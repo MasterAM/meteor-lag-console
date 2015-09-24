@@ -1,5 +1,9 @@
 /*create round icons behind <i> elements*/
 #Constellation .method-lag-item .small-icon {
+  cursor: pointer;	
+}
+
+#Constellation .method-lag-item .small-icon {
     position: relative;
     cursor: hand;
     width: 1.0em;
@@ -41,7 +45,7 @@
 }
 
 #Constellation .method-lag-item button {
-    margin: 0 2px;
+    margin: 0;
     color: #333333;
 }
 

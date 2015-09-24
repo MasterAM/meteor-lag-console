@@ -1,4 +1,4 @@
-#Constellation .alon-lag-console-menu {
+/*#Constellation .alon-lag-console-menu {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -20,8 +20,14 @@
 
 #Constellation .alon-lag-console-menu button {
     color: #333;
+}*/
+
+#Constellation .alon-lag-console-menu div[data-action=toggle-settings].active {
+    background-color: rgba(255,255,255,0.1);
 }
 
-#Constellation .alon-lag-console-menu button[data-action=toggle-settings].active {
-    border-style: inset;
+#Constellation .alon-lag-console-menu span[data-action=deactivate]:hover {
+	color: #2CA6E2;
+    transition: .2s;
+    cursor: pointer;
 }

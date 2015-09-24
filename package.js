@@ -1,7 +1,7 @@
 Package.describe({
   name: 'alon:lag-console',
   summary: 'A plugin for constellation that adds delay to method calls on your dev machine.',
-  version: '0.1.0',
+  version: '0.2.0',
   git: 'https://github.com/MasterAM/meteor-lag-console',
   documentation: 'README.md',
   debugOnly: true
@@ -10,7 +10,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
   api.use('check');
-  api.use('alon:lag-methods@0.3.0');
+  api.use('alon:lag-methods@0.4.0');
   api.use(['templating','reactive-dict', 'reactive-var', 'tracker'], 'client');
   api.use('underscore');
   api.use('mongo');
@@ -39,7 +39,7 @@ Package.onUse(function(api) {
     'lib/template/content/config/config.css',
     'lib/lag_console.js'
   ], 'client');
-  api.addFiles(['lib/collection/lag_server.js'], 'server');
+  api.addFiles(['lib/collection/lag_server.js','lib/lag_console_setup.js'], 'server');
 
   api.imply('constellation:console');
 

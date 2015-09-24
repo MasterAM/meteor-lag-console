@@ -1,10 +1,9 @@
 <template name="ConstellationLagConfig">
     <div class="alon-lag-console-config">
         <div class="item">
-            <span>Delay:</span>
-            <input type="number" name="default-delay" title="Default delay [ms]" placeholder="delay[ms]" />
+            <span>Default delay:</span>
+            <input type="number" name="default-delay" value="{{defaultDelay}}" title="Default delay [ms]" step=100 placeholder="0" />
             <span> ms</span>
-            <button data-action="change-default-delay">set</button>
         </div>
         {{#each toggleOptions}}
             {{> ConstellationLagToggleOption}}
