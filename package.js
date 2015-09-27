@@ -9,7 +9,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
-  api.use('check');
+  api.use(['check', 'underscore'], 'server');
   api.use('alon:lag-methods@0.4.0');
   api.use(['templating','reactive-dict', 'reactive-var', 'tracker'], 'client');
   api.use('underscore');

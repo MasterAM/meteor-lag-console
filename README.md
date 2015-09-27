@@ -4,7 +4,7 @@
 
 A plugin for `constellation:console` that provides a UI controls for `alon:lag-methods`.
 
-It allows you to delay methods on the server in a clean way that only affects your development machine. 
+It allows you to delay methods on the server in a clean way that only affects your development machine.
 
 ![main screenshot]
 
@@ -41,6 +41,18 @@ In this case, just add this to your json config file.
 ```
 Note that turning this feature on creates a MongoDB collection on the development server.
 
+The delay is disabled on startup by default. To change this behavior, use change the following configuration option:
+
+```json
+{
+  "lagMethods": {
+    "console": {
+      "disabledOnStartup": false
+    }
+  }
+}
+```
+
 ## Usage
 The package adds a tab to the Constellation panel.
 
@@ -68,7 +80,11 @@ Assuming it is located in `<your app's root dir>/config/settings.json`, you can 
 $ meteor run --settings config/settings.json
 ```
 
-Here are some short screencasts that demonstrate the functionality (the captured colors are a bit different from the actual screen colors):
+Here are some short screencasts that demonstrate the functionality (the captured colors are a bit different from the actual screen colors).
+
+**Note**: the UI in the current version is slightly different from the one in shown the examples below.
+
+LagConsole v1.0 is coming soon and will include more functionality updated examples.
 
 ### enable
 ![01_enable]
@@ -161,7 +177,7 @@ This time `foo` runs first, with a 1 second delay. Only after it is done, `bar` 
 ### logging
 
 ![10_logging]
-  
+
 Tggle the `Logging` checkbox to enable/disable this option.
 
 When enabled, the package will log each method call with the delay calculated for it based on its settings.

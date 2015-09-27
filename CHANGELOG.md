@@ -9,6 +9,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [v0.2.0]0.2.0 - 2015-09-27
 ### Changed
 - Changes to the UI.
+- Added some configuration options.
 
 
 ## 0.1.0 - 2015-09-13
