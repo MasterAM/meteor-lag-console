@@ -19,6 +19,7 @@ Package.onUse(function(api) {
 
   api.addFiles(['lib/collection/lag_both.js'], ['client', 'server']);
   api.addFiles([
+    'lib/client/config_formatter.js',
     'lib/collection/lag_client.js',
     'lib/template/header.html',
     'lib/template/header.js',

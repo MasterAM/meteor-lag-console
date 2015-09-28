@@ -1,6 +1,9 @@
 <template name="ConstellationLagConfig">
     <div class="alon-lag-console-config">
-        <div class="config-group-legend">General configs</div>
+        <div class="config-group-legend">
+            <span class="legend">General configs</span>
+            <i class="config-copy" title="print configs to browser console">cp</i>
+        </div>
         <div class="item">
             <span>Default delay:</span>
             <input type="number" name="default-delay" value="{{defaultDelay}}" title="Default delay [ms]" step=100 placeholder="0" />
