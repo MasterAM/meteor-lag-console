@@ -4,7 +4,7 @@
         {{#each tabOptions}}
             {{> ConstellationLagSubMenuTab}}
         {{/each}}
-        <input type="text" class="alon-lag-console-search" placeholder="search for {{activeType}}s"/>
+        <input type="text" class="alon-lag-console-search" value="{{filterText}}" placeholder="search for {{activeType}}s" data-action="filter"/>
     </div>
     {{/if}}
 </template>
