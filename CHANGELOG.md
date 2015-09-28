@@ -8,7 +8,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.0.0][v1.0.0] - 2015-09-27
 ### Added
-- Lag publications
+- Lag publications.
+- Filter lists using a search field.
+- Individually enable/disable method and publication delay.
 
 ### Changed
 - Major refactoring of the entire package dependency tree.
