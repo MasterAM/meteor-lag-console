@@ -15,3 +15,7 @@
 #Constellation span.alon-lag-console-toggle .Constellation_item_inactive:hover {
 	border: 1px solid rgba(255,255,255,0.6);
 }
+
+#Constellation span.lag-partial .Constellation_item_active {
+    background: #ffed1e;
+}
