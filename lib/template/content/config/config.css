@@ -10,3 +10,7 @@
 #Constellation .alon-lag-console-config .item {
   margin-top: 3px;	
 }
+#Constellation .config-group-legend {
+    border-bottom: 1px solid #888;
+    font-weight: bold;
+}

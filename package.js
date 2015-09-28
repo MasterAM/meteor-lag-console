@@ -49,6 +49,9 @@ Package.onUse(function(api) {
   api.addFiles([
     'lib/server/globals.js',
     'lib/collection/lag_server.js',
+    'lib/server/methods.js',
+    'lib/server/publish_as.js',
+    'lib/server/publications.js',
     'lib/server/lag_console_setup.js'
   ], 'server');
 
