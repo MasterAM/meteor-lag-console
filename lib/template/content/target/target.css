@@ -1,9 +1,9 @@
 /*create round icons behind <i> elements*/
-#Constellation .method-lag-item .small-icon {
+#Constellation .target-lag-item .small-icon {
   cursor: pointer;
 }
 
-#Constellation .method-lag-item .small-icon {
+#Constellation .target-lag-item .small-icon {
     position: relative;
     cursor: hand;
     width: 0;
@@ -13,30 +13,30 @@
     border-radius: 0.5em;
 }
 
-#Constellation .method-lag-item .delay-icon {
+#Constellation .target-lag-item .delay-icon {
   border-color: #33aa33;
 }
 
-#Constellation .method-lag-item .excluded-icon {
+#Constellation .target-lag-item .excluded-icon {
     border-color: #aa3333;
 }
 
-#Constellation .method-lag-item .disabled {
+#Constellation .target-lag-item .disabled {
     opacity: 0.4;
 }
 
-#Constellation .method-lag-item input[name=delay] {
+#Constellation .target-lag-item input[name=delay] {
     flex: 1;
     color: #333333;
     max-width: 6em;
 }
 
-#Constellation .method-lag-item button {
+#Constellation .target-lag-item button {
     margin: 0;
     color: #333333;
 }
 
-#Constellation .method-lag-item {
+#Constellation .target-lag-item {
     display: flex;
     align-items: center;
 }

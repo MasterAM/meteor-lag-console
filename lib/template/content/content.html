@@ -2,8 +2,9 @@
     {{#if showSettings}}
         {{> ConstellationLagConfig}}
     {{else}}
-        {{#each methodNames}}
-            {{> ConstellationLagContentMethods .}}
+
+        {{#each targetNames}}
+            {{> ConstellationLagContentTarget}}
         {{/each}}
     {{/if}}
 </template>

@@ -1,6 +1,6 @@
 Package.describe({
   name: 'alon:lag-console',
-  summary: 'A plugin for constellation that adds delay to method calls on your dev machine.',
+  summary: 'A plugin for constellation that simulates network lag on your dev machine.',
   version: '1.0.0',
   git: 'https://github.com/MasterAM/meteor-lag-console',
   documentation: 'README.md',
@@ -26,21 +26,31 @@ Package.onUse(function(api) {
     'lib/template/menu.html',
     'lib/template/menu.js',
     'lib/template/menu.css',
+    'lib/template/submenu/submenu.html',
+    'lib/template/submenu/submenu.js',
+    'lib/template/submenu/submenu.css',
+    'lib/template/submenu/tab/tab.html',
+    'lib/template/submenu/tab/tab.js',
+    'lib/template/submenu/tab/tab.css',
     'lib/template/config/toggle_option.html',
     'lib/template/config/toggle_option.js',
     'lib/template/config/toggle_option.css',
     'lib/template/content/content.html',
     'lib/template/content/content.js',
     'lib/template/content/content.css',
-    'lib/template/content/method/method.html',
-    'lib/template/content/method/method.js',
-    'lib/template/content/method/method.css',
+    'lib/template/content/target/target.html',
+    'lib/template/content/target/target.js',
+    'lib/template/content/target/target.css',
     'lib/template/content/config/config.html',
     'lib/template/content/config/config.js',
     'lib/template/content/config/config.css',
-    'lib/lag_console.js'
+    'lib/client/lag_console.js'
   ], 'client');
-  api.addFiles(['lib/collection/lag_server.js','lib/lag_console_setup.js'], 'server');
+  api.addFiles([
+    'lib/server/globals.js',
+    'lib/collection/lag_server.js',
+    'lib/server/lag_console_setup.js'
+  ], 'server');
 
   api.imply('constellation:console');
 

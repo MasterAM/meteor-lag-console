@@ -11,6 +11,7 @@
     cursor: pointer;
 }
 
-#Constellation span.alon-lag-console-toggle .Constellation_item_active:hover, #Constellation span.alon-lag-console-toggle .Constellation_item_inactive:hover {
+#Constellation span.alon-lag-console-toggle .Constellation_item_active:hover,
+#Constellation span.alon-lag-console-toggle .Constellation_item_inactive:hover {
 	border: 1px solid rgba(255,255,255,0.6);
 }

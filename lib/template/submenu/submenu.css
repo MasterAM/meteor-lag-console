@@ -1,0 +1,16 @@
+.alon-lag-console-submenu {
+    display: flex;
+    flex-direction: row;
+}
+
+#Constellation .alon-lag-console-submenu .alon-lag-console-search {
+    flex: 1;
+    height: 28px !important;;
+    padding: 0 6px !important;;
+    color: rgba(0,0,0,.8);
+    opacity: 0.8;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 16px;
+    display: inline-block;
+}

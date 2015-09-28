@@ -1,6 +1,6 @@
-<template name="ConstellationLagContentMethods">
+<template name="ConstellationLagContentTarget">
     {{#with details}}
-        <div class="method-lag-item item">
+        <div class="target-lag-item item">
             {{#with delayData}}
                 <i data-action="toggle-delayed" class="small-icon delay-icon {{className}}" title="{{title}}">&nbsp;</i>
             {{/with}}
@@ -13,7 +13,7 @@
                 <button data-action="clear-delay" title="clear an existing custom delay">clr</button>
                 <button data-action="cancel-delay" title="cancel the edit operation">cancel</button>-->
             {{else}}
-                <span class="name">{{name}}</span>
+                <span class="name">{{displayName}}</span>
             {{/if}}
         </div>
     {{/with}}
