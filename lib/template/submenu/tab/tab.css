@@ -1,13 +1,19 @@
 .constellation-tab {
-    border-left: 1px solid rgba(0,0,0,.4);
+    border: solid rgba(0,0,0,.4);
     padding: 0 6px;
-    width: 1.5em;
+    width: 35px;
     text-align: center;
 }
 .constellation-tab.active {
-    background-color: rgba(255,255,255,0.1);
     font-weight: bold;
+    border-width: 1px 1px 0 1px;
 }
+
+.constellation-tab.inactive {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-width: 1px;
+}
+
 
 .constellation-tab:hover {
     color: #2CA6E2;
