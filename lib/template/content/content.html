@@ -2,9 +2,10 @@
     {{#if showSettings}}
         {{> ConstellationLagConfig}}
     {{else}}
-
-        {{#each targetNames}}
-            {{> ConstellationLagContentTarget}}
-        {{/each}}
+        <div class="lag-console-list">
+            {{#each targetNames}}
+                {{> ConstellationLagContentTarget}}
+            {{/each}}
+        </div>
     {{/if}}
 </template>
