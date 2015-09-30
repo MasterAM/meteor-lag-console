@@ -1,16 +1,12 @@
 <template name="ConstellationLagMenu">
     <div class="alon-lag-console-menu">
-        <!-- {{#each toggleOptions}}
-            {{> ConstellationLagToggleOption}}
-        {{/each}} 
-        <div class="spacer"></div>-->
-        <div class="settings Constellation_menuContent">
-            <div data-action="toggle-settings" class="{{settingsClass}} Constellation_edit_cancel" title="Toggle settings view">Settings</div>
+        <div class="Constellation_menuContent">
             {{#if isActive}}
                 <span data-action="deactivate" title="Click to deactivate">&nbsp;Default delay: <strong data-action="toggle-settings" title="Change default delay">{{defaultDelay}} ms</strong></span>
             {{else}}
                 <div data-action="activate" class="Constellation_m_delete" title="Enable lag-methods">Activate</div>
             {{/if}}
         </div>
+        <div data-action="toggle-settings" class="{{settingsClass}} Constellation_edit_cancel" title="Toggle settings view">Settings</div>
     </div>
 </template>

@@ -15,7 +15,15 @@
     font-weight: bold;
 }
 
+.config-group-legend{
+    display: flex;
+    flex-direction: row;
+}
+
+#Constellation .lag-console-legend {
+    flex: 1;
+}
+
 #Constellation .config-group-legend .config-copy {
-    float: right;
     cursor: pointer !important;
 }

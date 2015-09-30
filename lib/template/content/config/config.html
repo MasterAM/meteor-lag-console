@@ -1,8 +1,8 @@
 <template name="ConstellationLagConfig">
     <div class="alon-lag-console-config">
         <div class="config-group-legend">
-            <span class="legend">General configs</span>
-            <i class="config-copy" title="print configs to browser console">cp</i>
+            <span class="lag-console-legend">General configs</span>
+            <i class="config-copy" title="Print configs to browser console">&gt;console</i>
         </div>
         <div class="item">
             <span>Default delay:</span>
@@ -12,7 +12,9 @@
         {{#each toggleOptions}}
             {{> ConstellationLagToggleOption}}
         {{/each}}
-        <div class="config-group-legend">Sub-component configs</div>
+        <div class="config-group-legend">
+            <span class="lag-console-legend">Sub-component configs</span>
+        </div>
         {{#each specificOptions}}
             {{> ConstellationLagToggleOption}}
         {{/each}}
