@@ -34,7 +34,7 @@ In this case, just add this to your json config file.
 
 ```json
 {
-  "lagMethods": {
+  "lagConfig": {
     "persist": true,
   }
 }
@@ -45,9 +45,9 @@ The delay is disabled on startup by default. To change this behavior, use change
 
 ```json
 {
-  "lagMethods": {
+  "lagConfig": {
     "console": {
-      "disabledOnStartup": false
+      "disableOnStartup": false
     }
   }
 }

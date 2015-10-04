@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.1');
   api.use(['check', 'underscore'], 'server');
   api.use('alon:lag-methods@1.0.0');
-  api.use('alon:lag-publications@1.0.0');
+  api.use('alon:lag-publications@1.0.1');
   api.use(['templating','reactive-dict', 'reactive-var', 'tracker'], 'client');
   api.use('underscore');
   api.use('mongo');
