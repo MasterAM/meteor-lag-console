@@ -1,20 +1,17 @@
 /*create round icons behind <i> elements*/
 #Constellation .target-lag-item .small-icon {
-  cursor: pointer;
-}
-
-#Constellation .target-lag-item .small-icon {
     position: relative;
-    cursor: hand;
+    cursor: pointer;
     width: 0;
     height: 0;
-    margin: 0 1px;
+    margin: 0 2px;
     border: 0.5em solid;
-    border-radius: 0.5em;
+    border-radius: 0.25em;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
 #Constellation .target-lag-item .delay-icon {
-  border-color: #33aa33;
+    border-color: #33aa33;
 }
 
 #Constellation .target-lag-item .excluded-icon {
@@ -23,6 +20,16 @@
 
 #Constellation .target-lag-item .disabled {
     opacity: 0.4;
+}
+
+#Constellation .target-lag-item .disabled:hover {
+    opacity: 0.8;
+    transition: .2s;
+}
+
+#Constellation .target-lag-item .enabled:hover {
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
+    transition: .2s;
 }
 
 #Constellation .target-lag-item input[name=delay] {
