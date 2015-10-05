@@ -1,41 +1,16 @@
-/*#Constellation .alon-lag-console-menu {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-#Constellation .alon-lag-console-menu > div {
-    display: flex;
-    align-items: center;
-}
-
-#Constellation .alon-lag-console-menu > div.item {
-    border-right: 1px solid rgba(0,0,0,0.2);
-    padding: 0 5px;
-}
-
-#Constellation .alon-lag-console-menu > div.spacer {
+#Constellation .constellation-lag-menu .Constellation_menuContent{
     flex: 1;
 }
-
-#Constellation .alon-lag-console-menu button {
-    color: #333;
-}*/
-
-
-#Constellation .alon-lag-console-menu .Constellation_menuContent{
-    flex: 1;
-}
-#Constellation .alon-lag-console-menu {
+#Constellation .constellation-lag-menu {
     display: flex;
     flex-direction: row;
 }
 
-#Constellation .alon-lag-console-menu div[data-action=toggle-settings].active {
+#Constellation .constellation-lag-menu div[data-action=toggle-settings].active {
     background-color: rgba(255,255,255,0.1);
 }
 
-#Constellation .alon-lag-console-menu span[data-action=deactivate]:hover {
+#Constellation .constellation-lag-menu span[data-action=deactivate]:hover {
 	color: #2CA6E2;
     transition: .2s;
     cursor: pointer;

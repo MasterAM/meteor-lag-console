@@ -1,9 +1,9 @@
-.alon-lag-console-submenu {
+#Constellation .constellation-lag-submenu {
     display: flex;
     flex-direction: row;
 }
 
-#Constellation .alon-lag-console-submenu .alon-lag-console-search {
+#Constellation .constellation-lag-submenu .constellation-lag-search {
     flex: 1;
     height: 30px !important;;
     padding: 0 6px !important;;

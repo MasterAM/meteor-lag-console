@@ -1,21 +1,12 @@
-/*#Constellation span.alon-lag-console-delay {
-    float: right;
-    display: none;
-}
-
-#Constellation.Constellation_expand span.alon-lag-console-delay{
-    display: inline-block;
-}*/
-
-#Constellation span.alon-lag-console-toggle {
+#Constellation span.constellation-lag-toggle {
     cursor: pointer;
 }
 
-#Constellation span.alon-lag-console-toggle .Constellation_item_active:hover,
-#Constellation span.alon-lag-console-toggle .Constellation_item_inactive:hover {
+#Constellation span.constellation-lag-toggle .Constellation_item_active:hover,
+#Constellation span.constellation-lag-toggle .Constellation_item_inactive:hover {
 	border: 1px solid rgba(255,255,255,0.6);
 }
 
-#Constellation span.lag-partial .Constellation_item_active {
+#Constellation span.constellation-lag-partial .Constellation_item_active {
     background: #ffed1e;
 }

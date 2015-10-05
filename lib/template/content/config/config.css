@@ -1,29 +1,27 @@
-#Constellation .alon-lag-console-config .item input,
-#Constellation .alon-lag-console-config .item button {
+#Constellation .constellation-lag-config .constellation-lag-item input,
+#Constellation .constellation-lag-config .constellation-lag-item button {
     color: #333;
 }
 
-#Constellation .alon-lag-console-config input[type=number] {
+#Constellation .constellation-lag-config input[type=number] {
   max-width: 120px;	
 }
 
-#Constellation .alon-lag-console-config .item {
+#Constellation .constellation-lag-config .constellation-lag-item {
   margin-top: 3px;	
 }
-#Constellation .config-group-legend {
+
+#Constellation .constellation-lag-config-group-header {
     border-bottom: 1px solid #888;
     font-weight: bold;
-}
-
-.config-group-legend{
     display: flex;
     flex-direction: row;
 }
 
-#Constellation .lag-console-legend {
+#Constellation .constellation-lag-legend {
     flex: 1;
 }
 
-#Constellation .config-group-legend .config-copy {
+#Constellation .constellation-lag-config-group-header .constellation-lag-config-copy {
     cursor: pointer !important;
 }

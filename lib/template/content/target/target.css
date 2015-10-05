@@ -1,5 +1,4 @@
-/*create round icons behind <i> elements*/
-#Constellation .target-lag-item .small-icon {
+#Constellation .target-lag-item .constellation-lag-small-icon {
     position: relative;
     cursor: pointer;
     width: 0;
@@ -10,11 +9,11 @@
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
-#Constellation .target-lag-item .delay-icon {
+#Constellation .target-lag-item .constellation-lag-delay-icon {
     border-color: #33aa33;
 }
 
-#Constellation .target-lag-item .excluded-icon {
+#Constellation .target-lag-item .constellation-lag-excluded-icon {
     border-color: #aa3333;
 }
 

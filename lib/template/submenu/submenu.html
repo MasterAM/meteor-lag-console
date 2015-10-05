@@ -1,10 +1,10 @@
 <template name="ConstellationLagSubMenu">
     {{#if shouldShow}}
-    <div class="alon-lag-console-submenu">
+    <div class="constellation-lag-submenu">
         {{#each tabOptions}}
             {{> ConstellationLagSubMenuTab}}
         {{/each}}
-        <input type="text" class="alon-lag-console-search" value="{{filterText}}" placeholder="search for {{activeType}}s" data-action="filter"/>
+        <input type="text" class="constellation-lag-search" value="{{filterText}}" placeholder="search for {{activeType}}s" data-action="filter"/>
     </div>
     {{/if}}
 </template>

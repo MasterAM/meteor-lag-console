@@ -2,16 +2,13 @@
     {{#with details}}
         <div class="target-lag-item item">
             {{#with delayData}}
-                <i data-action="toggle-delayed" class="small-icon delay-icon {{className}}" title="{{title}}">&nbsp;</i>
+                <i data-action="toggle-delayed" class="constellation-lag-small-icon constellation-lag-delay-icon {{className}}" title="{{title}}">&nbsp;</i>
             {{/with}}
             {{#with excludeData}}
-                <i data-action="toggle-excluded" class="small-icon excluded-icon {{className}}" title="{{title}}">&nbsp;</i>
+                <i data-action="toggle-excluded" class="constellation-lag-small-icon constellation-lag-excluded-icon {{className}}" title="{{title}}">&nbsp;</i>
             {{/with}}
             {{#if isEditing}}
                 <strong>Custom delay:</strong>&nbsp;<input name="delay" type="number" value="{{delay}}" step=100 placeholder="none" />&nbsp;ms
-                <!--<button data-action="set-delay" title="save edits">set</button>
-                <button data-action="clear-delay" title="clear an existing custom delay">clr</button>
-                <button data-action="cancel-delay" title="cancel the edit operation">cancel</button>-->
             {{else}}
                 <span class="name">{{displayName}}</span>
             {{/if}}
