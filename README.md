@@ -24,7 +24,7 @@ You can use this package to see what your fancy animations and transitions look 
 	1. [Installation](#installation)
 	2. [TL;DR](#tldr)
 	3. [Table of Contents](#table-of-contents)
-	4. [Indroduction](#indroduction)
+	4. [Introduction](#introduction)
 	5. [Configuration](#configuration)
 	6. [Usage](#usage)
 		1. [terminology](#terminology)
@@ -39,15 +39,15 @@ You can use this package to see what your fancy animations and transitions look 
 		10. [unblock](#unblock)
 		11. [publications](#publications)
 		12. [granular activation](#granular-activation)
-		13. [loggong](#loggong)
+		13. [logging](#logging)
 		14. [print config to console](#print-config-to-console)
 		15. [login example](#login-example)
 	7. [Running tests](#running-tests)
 	8. [Changelog](#changelog)
-
+  
 <!-- /TOC -->
 
-## Indroduction
+## Introduction
 Since development is often done on a powerful local machine without much load, the  round-trip is usually very quick. Any UI changes that reflect the intermediate state often appear as a short flash of content before the view renders with the new data or state.
 
 This behavior is different from the one that will be experienced by users of the production server, and therefore developers sometimes resort to quick and dirty ways for adding delay to their method calls (by calling `Meteor._sleepForMs()` - or dirtier solutions - directly in method code). If left alone and not cleaned up, it could eventually cause undesired delay of the deployed application.
@@ -59,7 +59,7 @@ The package adds delay to methods on the server only. Different delays can be co
 ## Configuration
 You may configure `alon:lag-methods` and `alon:lag-publications` to your liking.
 
-All of the config options (and other useful info) are specified in the README files ([mathods](https://github.com/MasterAM/meteor-lag-methods/blob/master/README.md), [publications](https://github.com/MasterAM/meteor-lag-publications/blob/master/README.md) - the config options are very similar between them).
+All of the config options (and other useful info) are specified in the README files ([methods](https://github.com/MasterAM/meteor-lag-methods/blob/master/README.md), [publications](https://github.com/MasterAM/meteor-lag-publications/blob/master/README.md) - the config options are very similar between them).
 
 The only thing that has to be manually configured is the `persist` option, in case you want your configuration to survive server restarts (this option is off by default).
 
@@ -128,7 +128,7 @@ For the following examples, the following configuration file was used:
   }
 }
 ```
-Details regarding the various configuration options can be found in the README files ([mathods](https://github.com/MasterAM/meteor-lag-methods/blob/master/README.md), [publications](https://github.com/MasterAM/meteor-lag-publications/blob/master/README.md)), as mentioned earlier.
+Details regarding the various configuration options can be found in the README files ([methods](https://github.com/MasterAM/meteor-lag-methods/blob/master/README.md), [publications](https://github.com/MasterAM/meteor-lag-publications/blob/master/README.md)), as mentioned earlier.
 
 Assuming it is located in `<your app's root dir>/config/settings.json`, you can start Meteor with it by using the following command in your terminal:
 
@@ -265,10 +265,10 @@ Methods and publications delays can be individually deactivated. If the global "
 If it is on, it is possible to disable only one of the target types.
 In such case, the indicator in the top right corner will turn yellow.
 
-### loggong
+### logging
 ![10_loggong]
 
-Tggle the `Logging` checkbox to enable/disable this option.
+Toggle the `Logging` checkbox to enable/disable this option.
 
 When enabled, the package will log each target call with the delay calculated for it based on its settings.
 
