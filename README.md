@@ -1,7 +1,6 @@
 # alon:lag-console
 [![Build Status](https://travis-ci.org/MasterAM/meteor-lag-console.svg?branch=master)](https://travis-ci.org/MasterAM/meteor-lag-console)
 
-
 A plugin for `constellation:console` that provides a UI controls for `alon:lag-methods` and `alon:lag-publications`.
 
 It allows you to simulate actual UX in a clean way that only affects your development machine, by adding delay to methods and publications on your local server.
@@ -14,6 +13,11 @@ It allows you to simulate actual UX in a clean way that only affects your develo
 $ meteor add alon:lag-console
 ```
 
+## demo
+A demo of the package is available on [delay.meteor.com](http://delay.meteor.com). The [source](https://github.com/MasterAM/meteor-lag-console-demo) is available on GitHub.
+
+Use <kbd>Ctrl</kbd>+<kbd>C</kbd> to toggle the console.
+
 ## TL;DR
 You can use this package to see what your fancy animations and transitions look like without polluting your code with calls to `Meteor._sleepForMs()`.
 
@@ -22,11 +26,12 @@ You can use this package to see what your fancy animations and transitions look 
 
 1. [alon:lag-console](#alonlag-console)
 	1. [Installation](#installation)
-	2. [TL;DR](#tldr)
-	3. [Table of Contents](#table-of-contents)
-	4. [Introduction](#introduction)
-	5. [Configuration](#configuration)
-	6. [Usage](#usage)
+	2. [demo](#demo)
+	3. [TL;DR](#tldr)
+	4. [Table of Contents](#table-of-contents)
+	5. [Introduction](#introduction)
+	6. [Configuration](#configuration)
+	7. [Usage](#usage)
 		1. [terminology](#terminology)
 		2. [main panel](#main-panel)
 		3. [settings tab](#settings-tab)
@@ -42,11 +47,10 @@ You can use this package to see what your fancy animations and transitions look 
 		13. [logging](#logging)
 		14. [print config to console](#print-config-to-console)
 		15. [login example](#login-example)
-	7. [Running tests](#running-tests)
-	8. [Changelog](#changelog)
-  
-<!-- /TOC -->
+	8. [Running tests](#running-tests)
+	9. [Changelog](#changelog)
 
+<!-- /TOC -->
 ## Introduction
 Since development is often done on a powerful local machine without much load, the  round-trip is usually very quick. Any UI changes that reflect the intermediate state often appear as a short flash of content before the view renders with the new data or state.
 
@@ -295,7 +299,6 @@ $ meteor test-packages ./
 and pointing your browser to the relevant URL (usually `http://localhost:3000`).
 
 ## Changelog
-
 See the [changelog file].
 
 
