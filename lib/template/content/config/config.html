@@ -2,9 +2,9 @@
     <div class="constellation-lag-config">
         <div class="constellation-lag-config-group-header">
             <span class="constellation-lag-legend">General configs</span>
-            <i class="constellation-lag-config-copy" title="Print configs to browser console">&gt;console</i>
+            <i class="constellation-lag-config-copy" title="Print configs to browser console">&rarr; console</i>
         </div>
-        <div class="item">
+        <div>
             <span>Default delay:</span>
             <input type="number" name="default-delay" value="{{defaultDelay}}" title="Default delay [ms]" step=100 placeholder="0" />
             <span> ms</span>
@@ -12,6 +12,7 @@
         {{#each toggleOptions}}
             {{> ConstellationLagToggleOption}}
         {{/each}}
+        <br />
         <div class="constellation-lag-config-group-header">
             <span class="constellation-lag-legend">Sub-component configs</span>
         </div>

@@ -7,7 +7,7 @@
 }
 
 #Constellation .constellation-lag-menu div[data-action=toggle-settings].active {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(43, 63, 83, 0.92);
 }
 
 #Constellation .constellation-lag-menu span[data-action=deactivate]:hover {

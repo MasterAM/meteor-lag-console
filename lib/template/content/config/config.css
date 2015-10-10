@@ -22,6 +22,14 @@
     flex: 1;
 }
 
+#Constellation .constellation-lag-config-group-header {
+	margin-bottom: 5px;	
+}
+
 #Constellation .constellation-lag-config-group-header .constellation-lag-config-copy {
     cursor: pointer !important;
+}
+
+#Constellation .constellation-lag-config-group-header .constellation-lag-config-copy:hover {
+	opacity: 0.5;
 }
