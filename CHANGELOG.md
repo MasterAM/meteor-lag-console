@@ -6,6 +6,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Nothing.
 
+## [1.0.0][v1.0.0] - 2015-10-17
+### Added
+- Checks for method arguments.
+
+### Changed
+- Some cosmetic UI changes.
+
 ## [1.0.0][v1.0.0] - 2015-09-27
 ### Added
 - Lag for publications.
@@ -28,6 +35,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release.
 
+[v1.0.1]: https://github.com/MasterAM/meteor-lag-console/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/MasterAM/meteor-lag-console/compare/v0.2.0...v1.0.0
 [v0.2.0]: https://github.com/MasterAM/meteor-lag-console/compare/v0.1.0...v0.2.0
 [unreleased]: https://github.com/MasterAM/meteor-lag-console/compare/v0.1.0...HEAD
