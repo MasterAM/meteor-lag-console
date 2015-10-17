@@ -8,7 +8,6 @@ It allows you to simulate actual UX in a clean way that only affects your develo
 ![main screenshot list] ![main screenshot settings]
 
 ## Installation
-
 ```sh
 $ meteor add alon:lag-console
 ```
@@ -22,35 +21,36 @@ Use <kbd>Ctrl</kbd>+<kbd>C</kbd> to toggle the console.
 You can use this package to see what your fancy animations and transitions look like without polluting your code with calls to `Meteor._sleepForMs()`.
 
 ## Table of Contents
-<!-- TOC depth:6 withLinks:1 updateOnSave:0 orderedList:1 -->
+<!-- TOC minDepth:2 depth:6 withLinks:1 updateOnSave:1 orderedList:1 -->
 
-1. [alon:lag-console](#alonlag-console)
-	1. [Installation](#installation)
-	2. [demo](#demo)
-	3. [TL;DR](#tldr)
-	4. [Table of Contents](#table-of-contents)
-	5. [Introduction](#introduction)
-	6. [Configuration](#configuration)
-	7. [Usage](#usage)
-		1. [terminology](#terminology)
-		2. [main panel](#main-panel)
-		3. [settings tab](#settings-tab)
-		4. [filter](#filter)
-		5. [activate](#activate)
-		6. [default delay](#default-delay)
-		7. [per-target configuration options](#per-target-configuration-options)
-		8. [exclude a target](#exclude-a-target)
-		9. [set a custom per-target delay](#set-a-custom-per-target-delay)
-		10. [unblock](#unblock)
-		11. [publications](#publications)
-		12. [granular activation](#granular-activation)
-		13. [logging](#logging)
-		14. [print config to console](#print-config-to-console)
-		15. [login example](#login-example)
-	8. [Running tests](#running-tests)
-	9. [Changelog](#changelog)
+1. [Installation](#installation)
+2. [demo](#demo)
+3. [TL;DR](#tldr)
+4. [Table of Contents](#table-of-contents)
+5. [Introduction](#introduction)
+6. [Configuration](#configuration)
+7. [Usage](#usage)
+  1. [terminology](#terminology)
+  2. [main panel](#main-panel)
+  3. [settings tab](#settings-tab)
+  4. [filter](#filter)
+  5. [activate](#activate)
+  6. [default delay](#default-delay)
+  7. [per-target configuration options](#per-target-configuration-options)
+  8. [exclude a target](#exclude-a-target)
+  9. [set a custom per-target delay](#set-a-custom-per-target-delay)
+  10. [unblock](#unblock)
+  11. [publications](#publications)
+  12. [granular activation](#granular-activation)
+  13. [logging](#logging)
+  14. [print config to console](#print-config-to-console)
+  15. [login example](#login-example)
+8. [Running tests](#running-tests)
+9. [Changelog](#changelog)
+10. [Thanks](#thanks)
 
 <!-- /TOC -->
+
 ## Introduction
 Since development is often done on a powerful local machine without much load, the  round-trip is usually very quick. Any UI changes that reflect the intermediate state often appear as a short flash of content before the view renders with the new data or state.
 
@@ -290,7 +290,6 @@ At the moment this feature is rather crude and prints options that are set by de
 This example shows the effect of setting method delays on the login/logout action.
 
 ## Running tests
-
 ```sh
 $ git clone https://github.com/MasterAM/meteor-lag-console.git
 $ cd meteor-lag-console
@@ -301,6 +300,8 @@ and pointing your browser to the relevant URL (usually `http://localhost:3000`).
 ## Changelog
 See the [changelog file].
 
+## Thanks
+**Brent Abrahams** for his kind advice and contributions.
 
 [changelog file]: CHANGELOG.md "changelog file"
 [this.unblock()]: http://docs.meteor.com/#/full/method_unblock
