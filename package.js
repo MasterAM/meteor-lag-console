@@ -1,7 +1,7 @@
 Package.describe({
   name: 'alon:lag-console',
   summary: 'Network delay simulation for UX testing made clean and easy with a Constellation panel.',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'https://github.com/MasterAM/meteor-lag-console',
   documentation: 'README.md',
   debugOnly: true
