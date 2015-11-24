@@ -1,7 +1,7 @@
 Package.describe({
   name: 'alon:lag-console',
   summary: 'Network delay simulation for UX testing made clean and easy with a Constellation panel.',
-  version: '1.0.1',
+  version: '1.0.2',
   git: 'https://github.com/MasterAM/meteor-lag-console',
   documentation: 'README.md',
   debugOnly: true
@@ -12,7 +12,7 @@ Package.onUse(function(api) {
   api.use(['check', 'underscore'], 'server');
   api.use('alon:lag-methods@1.0.0');
   api.use('alon:lag-publications@1.0.1');
-  api.use(['templating','reactive-dict', 'reactive-var', 'tracker'], 'client');
+  api.use(['templating','reactive-dict', 'reactive-var', 'tracker', 'jquery'], 'client');
   api.use('underscore');
   api.use('mongo');
   api.use('constellation:console@1.2.1', 'client');

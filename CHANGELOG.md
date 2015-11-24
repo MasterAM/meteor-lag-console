@@ -6,7 +6,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Nothing.
 
-## [1.0.0][v1.0.0] - 2015-10-17
+
+## [1.0.2][v1.0.2] - 2015-11-24
+### Changed
+- Added jQuery dependency, as Meteor does not include it by default (and Constellation depends on it anyway).
+
+## [1.0.1][v1.0.1] - 2015-10-17
 ### Added
 - Checks for method arguments.
 
@@ -35,7 +40,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release.
 
+[v1.0.2]: https://github.com/MasterAM/meteor-lag-console/compare/v1.0.1...v1.0.2
 [v1.0.1]: https://github.com/MasterAM/meteor-lag-console/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/MasterAM/meteor-lag-console/compare/v0.2.0...v1.0.0
 [v0.2.0]: https://github.com/MasterAM/meteor-lag-console/compare/v0.1.0...v0.2.0
-[unreleased]: https://github.com/MasterAM/meteor-lag-console/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/MasterAM/meteor-lag-console/compare/v1.0.2...HEAD

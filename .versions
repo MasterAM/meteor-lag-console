@@ -1,6 +1,6 @@
 aldeed:template-extension@3.4.3
 alon:lag-base@1.0.2
-alon:lag-console@1.0.0
+alon:lag-console@1.0.1
 alon:lag-methods@1.0.1
 alon:lag-publications@1.0.1
 babel-compiler@5.8.24_1
@@ -33,7 +33,7 @@ htmljs@1.0.5
 id-map@1.0.4
 jquery@1.11.4
 lai:collection-extensions@0.1.4
-local-test:alon:lag-console@1.0.0
+local-test:alon:lag-console@1.0.1
 logging@1.0.8
 meteor@1.1.9
 meteorhacks:meteorx@1.0.2

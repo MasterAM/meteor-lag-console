@@ -78,7 +78,7 @@ In this case, just add this to your json config file.
 ```
 Note that turning this feature on creates a MongoDB collection on the development server.
 
-The delay is disabled on startup by default. To change this behavior, use change the following configuration option:
+The delay is disabled on startup by default. To change this behavior, use the following configuration option:
 
 ```json
 {
